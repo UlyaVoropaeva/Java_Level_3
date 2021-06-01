@@ -1,5 +1,4 @@
 package lesson_5;
-
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.Semaphore;
 

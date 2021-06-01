@@ -1,9 +1,6 @@
 package lesson_5;
 
-
 public class Road extends Stage  {
-
-
 
     public Road(int length) {
         this.length = length;
@@ -11,7 +8,6 @@ public class Road extends Stage  {
     }
     @Override
     public void go(Car c) {
-
 
         try {
             System.out.println(c.getName() + " начал этап: " + description);
@@ -21,5 +17,4 @@ public class Road extends Stage  {
             e.printStackTrace();
         }
     }
-
 }

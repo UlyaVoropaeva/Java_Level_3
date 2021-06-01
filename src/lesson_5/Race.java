@@ -5,7 +5,6 @@ import java.util.Arrays;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.atomic.AtomicReference;
 
-
 public class Race {
     private CyclicBarrier cb;
     private ArrayList<Stage> stages;
@@ -21,8 +20,6 @@ public class Race {
         this.stages = new ArrayList<>(Arrays.asList(stages));
         this.winner = new AtomicReference<>();
         this.CARS_COUNT = CARS_COUNT;
-        this.cb = new CyclicBarrier(CARS_COUNT);
-
     }
 
     public CyclicBarrier getStart() {
