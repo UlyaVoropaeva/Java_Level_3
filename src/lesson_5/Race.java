@@ -26,7 +26,6 @@ public class Race {
         this.br = new CyclicBarrier(CARS_COUNT);
         return cb;
     }
-
     public CyclicBarrier getFinish() {
         this.br = new CyclicBarrier(CARS_COUNT);
         return cb;

@@ -18,7 +18,6 @@ public class MainClass {
             cars[i] = new Car( 20 + (int) (Math.random() * 10));
             cars[i].RaceCar(race);
         }
-
         for (int i = 0; i < CARS_COUNT; i++) {
             int index = i;
             new Thread(() -> {

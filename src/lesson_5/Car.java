@@ -46,7 +46,6 @@ public class Car implements Runnable {
             System.out.println("ВАЖНОЕ ОБЪЯВЛЕНИЕ >>> Гонка закончилась!!!");
             race.getFinish().await();
             race.setWinner(this);
-
         } catch (InterruptedException  | BrokenBarrierException e) {
 
             e.printStackTrace();
